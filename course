@@ -1,0 +1,11 @@
+<div class="row">
+  <h2>{{course.title}}</h2>
+  <br />
+  <br />
+  <div ng-repeat="topic in course.topics">
+    <a href="#" onclick="return false;"><i class="glyphicon glyphicon-play"></i></a> <span>{{topic}}</span>
+  </div>
+  <div class="pull-right">
+    <a href="#/">Back to Course List</a>
+  </div>
+</div>
